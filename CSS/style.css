@@ -1,25 +1,32 @@
 div {
-    background-color: rgb(255, 255, 255);
-    width: 300px;
-    border: 15px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 20px;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    
   }
   body {
-    background-color: rgb(255, 255, 255);
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
 }
 
-head {
-    align-content: center;
-}
+
 
 .fotos {
     width: 300px;
     height: 200px;
+
 }
 
 .fotos1 {
     width: 300px;
     height: 330px;
+
+
 }
+
+    a:hover {
+        color: #00d9ff;
+    }
